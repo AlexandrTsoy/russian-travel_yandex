@@ -1,0 +1,19 @@
+.place__paragraph {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  align-self: start;
+  justify-self: start;
+  max-width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .place__paragraph {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
